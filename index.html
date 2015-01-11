@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Productly</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap-theme.min.css">
+
+	<!-- JS -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+	<style>
+		html, body {
+			height: 100%;
+		}
+
+		.container{
+			width:1025px;
+		}
+
+		.vertical-center {
+			height:100%;
+			width:100%;
+
+			text-align: center;  
+			font: 0/0 a;         
+		}
+
+		.vertical-center:before {   
+			content: ' ';
+			display: inline-block;
+			vertical-align: middle;  
+			height: 100%;
+		}
+
+		.vertical-center > .container {
+			max-width: 100%;
+			background-color: gold;
+
+			display: inline-block;
+			vertical-align: middle; 
+			font: 16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;      
+		}
+	</style>
+</head>
+<body>
+	<div class="jumbotron vertical-center">
+		<div class="container text-center">
+			<h1>Productly</h1>
+			<p>A new product.</p>
+			<a href="#" onClick="alert('Thanks for your interest!')" class="btn-primary btn h2 lightBlue get-Started-btn">Register Interest</a>
+		</div>
+	</div>
+</body>
+</html>
